@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#050816;
+    color:white;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    width:100%;
+    max-width:1200px;
+
+    margin:auto;
+    padding:25px 0;
+
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+.nav-links a:hover{
+    color:#7c3aed;
+}
+.connect-btn{
+    padding:12px 24px;
+    border:none;
+    border-radius:10px;
+
+    background:linear-gradient(90deg, #8b5cf6, #2563eb);
+    color:white;
+    cursor:pointer;
+}
